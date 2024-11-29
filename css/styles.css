@@ -24,6 +24,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 .header-span {
@@ -81,14 +82,15 @@ button {
 .section-one {
   background-color: #2e2f42;
 }
-.title-section1 {
+.title-section-one {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
-.btn-section1 {
+.btn-section-one {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -96,7 +98,8 @@ button {
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.btn-section1:hover {
+.btn-section-one:hover,
+.btn-section-one:focus {
   background-color: #404bbf;
 }
 .title-ourteam {
