@@ -1,8 +1,10 @@
+/* #region body */
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
+
 a {
   text-decoration: none;
 }
@@ -13,6 +15,9 @@ ol {
 button {
   cursor: pointer;
 }
+/* #endregion */
+
+/* #region header */
 .header-page {
 }
 .nav-page {
@@ -81,6 +86,8 @@ button {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
+/* #endregion */
+/* #region section-one */
 .section-one {
   background-color: #2e2f42;
 }
@@ -104,7 +111,8 @@ button {
 .btn-section-one:focus {
   background-color: #404bbf;
 }
-
+/* #endregion */
+/* #region section-two */
 .section-two {
   background-color: #ffffff;
 }
@@ -122,8 +130,10 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion */
+/* #region section-three */
 .section-three {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .title-section-three {
   font-weight: 700;
@@ -133,6 +143,9 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.item-section-three {
+  background-color: #ffffff;
 }
 .subject {
   font-weight: 500;
@@ -148,6 +161,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion */
+/* #region section-four */
 .section-four {
   background-color: #ffffff;
 }
@@ -174,7 +189,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/* #endregion */
+/* #region footer */
 .footer {
   background-color: #2e2f42;
 }
@@ -204,3 +220,4 @@ button {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+/* #endregion */
